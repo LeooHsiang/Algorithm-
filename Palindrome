@@ -1,0 +1,19 @@
+public class Palindrome{
+  public static void main(String[] args) {
+        String wort = "reliefpfpfeiller";
+        char[] warray = wort.toCharArray(); 
+        System.out.println(istPalindrom(warray));       
+    public static boolan Palindrome(char[] ch){
+      int i1 = 0;
+      int i2 = ch.length -1;
+      while(i2>i1){
+        if(ch[i1] != ch[i2]){
+          return false;
+          }
+          i1++;
+          i2--;
+          }
+      return true;
+    }
+  
+
